@@ -1,0 +1,15 @@
+<div class="page__footer-social" style="display: flex; justify-content: center; gap: 2rem; margin-top: 1em;">
+  <a href="/feed.xml" rel="nofollow noopener noreferrer" style="display: flex; align-items: center; gap: 0.5em;">
+    <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
+  </a>
+  <a href="https://github.com/vesuvisian" rel="nofollow noopener noreferrer" target="_blank" style="display: flex; align-items: center; gap: 0.5em;">
+    <i class="fab fa-github" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/vesuvius" rel="nofollow noopener noreferrer" target="_blank" style="display: flex; align-items: center; gap: 0.5em;">
+    <i class="fab fa-linkedin" aria-hidden="true"></i>
+  </a>
+</div>
+<div class="page__footer-copyright" style="text-align: center;">
+    &copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} 
+    <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>
+</div>

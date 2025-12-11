@@ -1,0 +1,9 @@
+---
+layout: home
+author_profile: false
+header:
+  image: /assets/images/IMG_4778.jpg
+  alt: Sunrise on Mount Whitney
+---
+
+Here's a collection of personal projects, things I think about while falling asleep, and other assorted goodies that maybe someone will find interesting.
