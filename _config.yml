@@ -255,6 +255,7 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -321,3 +322,17 @@ defaults:
       share: true
       related: true
       show_date: true
+
+# # jekyll-archives configuration
+# jekyll-archives:
+#   enabled:
+#     - year
+#     - month
+#     - day
+#     - tags
+#   layout: archive
+#   permalinks:
+#     year: /:year/
+#     month: /:year/:month/
+#     day: /:year/:month/:day/
+#     tag: /tags/:name/

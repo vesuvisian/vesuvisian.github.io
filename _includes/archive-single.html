@@ -13,8 +13,8 @@
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
     {% if include.type == "list" and teaser %}
-      <div class="archive__item-teaser" style="float: left; margin-right: 2em; width: 180px;">
-        <img src="{{ teaser | relative_url }}" alt="" style="width: 100%; height: auto; display: block;">
+      <div class="archive__item-teaser" style="float: left; margin-right: 2em; width: 240px;">
+      <img src="{{ teaser | relative_url }}" alt="" style="width: 100%; height: auto; display: block;">
       </div>
     {% endif %}
     {% if include.type == "grid" and teaser %}
