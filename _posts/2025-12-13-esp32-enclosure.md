@@ -5,7 +5,7 @@ date:   2025-12-13
 tags: [3d-printing, esp32, web]
 header:
   image: /assets/images/esp32_enclosure.png
-  alt: Website source code
+  alt: ESP32 enclosure screenshot
   teaser: /assets/images/esp32_enclosure.png
 ---
 I mentioned in my [previous post][previous] an interest in getting other interesting artifacts embedded in these pages, and here's my chance with an STL file. This was a lot harder than expected and involved learning a little bit about [Three.js][three], adding some JavaScript to my `assets` directory, and adding an HTML file to my `_includes` directory. Now that it works, though, it will be easy to include other STLs again.
