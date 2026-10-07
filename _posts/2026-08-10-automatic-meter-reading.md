@@ -2,7 +2,7 @@
 layout: single
 title:  "Automatic Meter Reading"
 date:   2026-08-10
-tags: [home assistant, sdr]
+tags: [home assistant, sdr, python]
 header:
   image: /assets/images/sdr.png
   alt: Raspberry Pi & RTL-SDR Setup in Attic
