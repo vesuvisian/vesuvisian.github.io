@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Andrew Martin"
 description              : "Code, technology, and other musings."
-url                      : "https://vesuvisian.github.io"
+url                      : "https://vesuvisian.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vesuvisian/vesuvisian.github.io" # GitHub repository of the site
 teaser                   : "/assets/images/gc.png"
@@ -69,7 +69,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true
-search_full_content      : # true, false (default)
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : true
